@@ -18,10 +18,10 @@ Joanna is renting in Mueller and working downtown in the Tech industry. Moved to
 
 ##Michael
 
-Neighborhood: Duval Estates
-Commute: 16 miles
-Title: education admin
-Age: 40
+Neighborhood: Duval Estates  
+Commute: 16 miles  
+Title: education admin  
+Age: 40  
 
 Longtime Austin resident, Michael, hates driving, especially in traffic. Environmentally conscious, active in local community non-profits. Family of 4 with 2 children, living in North Austin for over a decade. Commutes across town to South Austin and primarily uses mass transit. Cycles on weekends without prior engagements.
 
@@ -34,10 +34,10 @@ Longtime Austin resident, Michael, hates driving, especially in traffic. Environ
 
 ##Dale
 
-Neighborhood: Zilker
-Commute: 4 miles
-Title: server
-Age: 28
+Neighborhood: Zilker  
+Commute: 4 miles  
+Title: server  
+Age: 28  
 
 Dale rents a small place in Zilker from a friend. He works as a server at a couple different locations on the East side, and relies solely on a bicycle for transportation.
 
