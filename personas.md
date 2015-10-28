@@ -2,10 +2,10 @@
 
 ##Joanna
 
-Neighborhood: Mueller
-Commute: 5 miles
-Title: software developer
-Age: 33
+Neighborhood: Mueller  
+Commute: 5 miles  
+Title: software developer  
+Age: 33  
 
 Joanna is renting in Mueller and working downtown in the Tech industry. Moved to Austin from Raleigh, NC a little over a year ago. After renting in South Austin, she moved to Mueller to live more centrally and stop relying on her car as much. Determined but a bit of a procrastinator. 
 
