@@ -1,0 +1,53 @@
+//variables
+
+$brand-color: #00ffe3;
+$link-color: #766fff;
+$hover-color: #62d3ff;
+$lt-grey: #666;
+$dk-grey: #333;
+
+//base text styling
+
+body {
+	color: $dk-grey;
+	font-family: 'museo-sans-rounded', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 700
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p {
+	font-size: 1.15em;
+	font-weight: 300;
+	line-height: 1.25em;
+}
+
+// button styling
+button {
+	background: $link-color;
+	border: none;
+	border-radius: 2em;
+	color: white;
+	font-family: 'museo-sans-rounded', sans-serif;
+	font-size: 2.25em;
+	font-weight: 900;
+	height: 1.5em;
+	width: 5em;
+}

@@ -1,0 +1,26 @@
+header {
+	background: 
+		linear-gradient($link-color, #5e92eb, #14e5eb);
+	box-sizing: border-box;
+	height: 20em;
+	margin-bottom: 4em;
+	overflow: hidden;
+	padding-top: 8.5em;
+	width: 100%;
+
+	h1 {
+		color: white;
+		display: block;
+		text-align: center;
+	}
+}
+
+section {
+	padding: 0 1em;
+}
+
+.mockup {
+	display: block;
+	max-width: 10em;
+	margin: -10em auto 2em auto;
+}
