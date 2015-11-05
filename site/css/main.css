@@ -52,9 +52,9 @@ body {
 
 h1,
 h2,
-h3,
-h4 {
-  font-weight: 700; }
+h3 {
+  font-weight: 700;
+  margin-bottom: 1em; }
 
 h1 {
   font-size: 3em; }
@@ -68,7 +68,15 @@ h3 {
 p {
   font-size: 1.15em;
   font-weight: 300;
-  line-height: 1.25em; }
+  line-height: 1.4em; }
+
+blockquote {
+  background: linear-gradient(45deg, white 50%, #eee 50%);
+  background-size: 4px 4px;
+  border-left: 0.1em solid #00ffe3;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 1em; }
 
 button {
   background: #766fff;
@@ -78,8 +86,8 @@ button {
   font-family: 'museo-sans-rounded', sans-serif;
   font-size: 2.25em;
   font-weight: 900;
-  height: 1.5em;
-  width: 5em; }
+  height: 1.35em;
+  width: 4.5em; }
 
 header {
   background: linear-gradient(#766fff, #5e92eb, #14e5eb);
@@ -95,11 +103,42 @@ header {
     text-align: center; }
 
 section {
-  padding: 0 1em; }
+  border-bottom: 1px solid #ccc;
+  padding: 0 1em 5em 1em;
+  margin-bottom: 5em; }
 
 .mockup {
   display: block;
   max-width: 10em;
   margin: -10em auto 2em auto; }
+
+.rotImg {
+  max-width: 100%; }
+
+footer {
+  background: #766fff;
+  color: white;
+  padding: 1em; }
+  footer p {
+    margin-bottom: 1em; }
+  footer .email input[type="text"] {
+    background: none;
+    padding: 10px;
+    border: none;
+    border-bottom: solid 2px #c9c9c9;
+    transition: border 0.3s; }
+  footer .email input[type="text"]:focus,
+  footer input[type="text"].focus {
+    border-bottom: solid 2px #969696; }
+  footer span {
+    display: block;
+    text-align: center; }
+
+@media screen and (min-width: 625px) {
+  .mockup {
+    display: none; }
+
+  .section:first-of-type::after {
+    content: url "images/mainscreen&phone.png"; } }
 
 /*# sourceMappingURL=main.css.map */
