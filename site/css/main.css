@@ -104,7 +104,7 @@ header {
 
 section {
   border-bottom: 1px solid #ccc;
-  padding: 0 1em 5em 1em;
+  padding: 0 5% 5em 5%;
   margin-bottom: 5em; }
 
 .mockup {
@@ -116,6 +116,8 @@ section {
   width: 100%;
   height: 20em;
   overflow: hidden; }
+  .carousel img {
+    width: 100%; }
 
 footer {
   background: #766fff;
@@ -123,19 +125,41 @@ footer {
   padding: 1em; }
   footer p {
     margin-bottom: 1em; }
-  footer .email-input h3 {
-    display: inline-block;
-    font-weight: 700; }
-  footer .email-input input[type="text"] {
-    background: none;
-    color: white;
-    margin-left: .5em;
-    padding: 2px;
-    border: none;
-    border-bottom: solid 2px white;
-    transition: border 0.3s; }
-  footer .email-input input[type="text"]:focus {
-    border-bottom: solid 2px #969696; }
+  footer .email-input {
+    margin: 0 auto 1em auto;
+    width: 90%; }
+    footer .email-input input[type="text"] {
+      background: none;
+      color: white;
+      font-family: 'museo-sans-rounded', sans-serif;
+      font-size: 1.5em;
+      font-weight: 700;
+      margin-left: .5em;
+      padding: 2px;
+      border: none;
+      border-bottom: solid .2em white;
+      transition: border 0.3s;
+      width: 60%; }
+      footer .email-input input[type="text"]::-webkit-input-placeholder {
+        color: #ddd; }
+      footer .email-input input[type="text"]:-moz-placeholder {
+        /* Firefox 18- */
+        color: #ddd; }
+      footer .email-input input[type="text"]::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #ddd; }
+      footer .email-input input[type="text"]:-ms-input-placeholder {
+        color: #ddd; }
+    footer .email-input input[type="text"]:focus {
+      border-bottom: solid .2em #ddd; }
+    footer .email-input button {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 1.5em;
+      border-box: box-sizing;
+      text-align: center; }
+      footer .email-input button:hover {
+        color: #62d3ff; }
   footer span {
     display: block;
     text-align: center; }

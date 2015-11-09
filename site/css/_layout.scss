@@ -17,7 +17,7 @@ header {
 
 section {
 	border-bottom: 1px solid #ccc;
-	padding: 0 1em 5em 1em;
+	padding: 0 5% 5em 5%;
 	margin-bottom: 5em;
 }
 
@@ -31,6 +31,10 @@ section {
 	width: 100%;
 	height: 20em;
 	overflow: hidden;
+
+	img {
+		width: 100%;
+	}
 }
 
 footer {
@@ -43,24 +47,55 @@ footer {
 	}
 
 	.email-input {
-	
-		h3 {
-			display: inline-block;
-			font-weight: 700;
-		}
+		
+		margin: 0 auto 1em auto;
+		width: 90%;
 
 		input[type="text"] {
 			background: none;
 			color: white;
+			font-family: 'museo-sans-rounded', sans-serif;
+			font-size: 1.5em;
+			font-weight: 700;
 			margin-left: .5em;
 			padding: 2px;
 			border: none;
-			border-bottom: solid 2px white;
+			border-bottom: solid .2em white;
 			transition: border 0.3s;
+			width: 60%;
+
+			&::-webkit-input-placeholder {
+			   color: #ddd;
+			}
+
+			&:-moz-placeholder { /* Firefox 18- */
+			   color: #ddd;  
+			}
+
+			&::-moz-placeholder {  /* Firefox 19+ */
+			   color: #ddd;  
+			}
+
+			&:-ms-input-placeholder {  
+			   color: #ddd;
+			}
+
 		}
 
 		input[type="text"]:focus, {
-		  	border-bottom: solid 2px #969696;
+		  	border-bottom: solid .2em #ddd;
+		}
+
+		button {
+			display: inline-block;
+			font-weight: 700;
+			font-size: 1.5em;
+			border-box: box-sizing;
+			text-align: center;
+
+			&:hover {
+				color: $hover-color;
+			}
 		}
 	}
 
