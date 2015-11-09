@@ -112,8 +112,10 @@ section {
   max-width: 10em;
   margin: -10em auto 2em auto; }
 
-.rotImg {
-  max-width: 100%; }
+.carousel {
+  width: 100%;
+  height: 20em;
+  overflow: hidden; }
 
 footer {
   background: #766fff;
@@ -121,14 +123,18 @@ footer {
   padding: 1em; }
   footer p {
     margin-bottom: 1em; }
-  footer .email input[type="text"] {
+  footer .email-input h3 {
+    display: inline-block;
+    font-weight: 700; }
+  footer .email-input input[type="text"] {
     background: none;
-    padding: 10px;
+    color: white;
+    margin-left: .5em;
+    padding: 2px;
     border: none;
-    border-bottom: solid 2px #c9c9c9;
+    border-bottom: solid 2px white;
     transition: border 0.3s; }
-  footer .email input[type="text"]:focus,
-  footer input[type="text"].focus {
+  footer .email-input input[type="text"]:focus {
     border-bottom: solid 2px #969696; }
   footer span {
     display: block;

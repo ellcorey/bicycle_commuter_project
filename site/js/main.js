@@ -1,11 +1,13 @@
 
 $(document).ready(function(){
 	$('.carousel').slick({
-	  dots: true,
+	  autoplay: true,
+	  cssEase: 'ease',
+	  dots: false,
 	  infinite: true,
 	  speed: 300,
 	  slidesToShow: 1,
-	  adaptiveHeight: true
+	  adaptiveHeight: false
 	});
 });
 
