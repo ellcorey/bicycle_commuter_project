@@ -57,31 +57,31 @@ section {
 	#carousel1 {
 		background: url('../images/cycling01lg.jpg');
 		background-size: cover;
-		background-position: center;
+		background-position: center 100%;
 	}
 
 	#carousel2 {
 		background: url('../images/cycling02lg.jpg');
 		background-size: cover;
-		background-position: center;
+		background-position: center 100%;
 	}
 
 	#carousel3 {
 		background: url('../images/cycling03lg.jpg');
 		background-size: cover;
-		background-position: center;
+		background-position: center 100%;
 	}
 
 	#carousel4 {
 		background: url('../images/cycling04lg.jpg');
 		background-size: cover;
-		background-position: center;
+		background-position: center 100%;
 	}
 
 	#carousel5 {
 		background: url('../images/cycling05lg.jpg');
 		background-size: cover;
-		background-position: center;
+		background-position: center 100%;
 	}
 }
 
@@ -105,6 +105,7 @@ footer {
 			font-family: 'museo-sans-rounded', sans-serif;
 			font-size: 1.5em;
 			font-weight: 700;
+			margin-bottom: .5em;
 			padding: 2px;
 			border: none;
 			border-bottom: solid .2em white;
@@ -151,4 +152,11 @@ footer {
 		display: block;
 		text-align: center;
 	}
+}
+
+
+// hidden on load
+
+.hidden-mob {
+	display: none;
 }
