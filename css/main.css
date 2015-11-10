@@ -127,29 +127,28 @@ footer {
     margin-bottom: 1em; }
   footer .email-input {
     margin: 0 auto 1em auto;
-    width: 90%; }
+    text-align: center; }
     footer .email-input input[type="text"] {
       background: none;
       color: white;
       font-family: 'museo-sans-rounded', sans-serif;
       font-size: 1.5em;
       font-weight: 700;
-      margin-left: .5em;
       padding: 2px;
       border: none;
       border-bottom: solid .2em white;
       transition: border 0.3s;
-      width: 60%; }
+      width: 100%; }
       footer .email-input input[type="text"]::-webkit-input-placeholder {
-        color: #ddd; }
+        color: #bbb7ff; }
       footer .email-input input[type="text"]:-moz-placeholder {
         /* Firefox 18- */
-        color: #ddd; }
+        color: #00ffe3; }
       footer .email-input input[type="text"]::-moz-placeholder {
         /* Firefox 19+ */
-        color: #ddd; }
+        color: #00ffe3; }
       footer .email-input input[type="text"]:-ms-input-placeholder {
-        color: #ddd; }
+        color: #00ffe3; }
     footer .email-input input[type="text"]:focus {
       border-bottom: solid .2em #ddd; }
     footer .email-input button {
@@ -157,7 +156,8 @@ footer {
       font-weight: 700;
       font-size: 1.5em;
       border-box: box-sizing;
-      text-align: center; }
+      text-align: center;
+      transition: color .3s; }
       footer .email-input button:hover {
         color: #62d3ff; }
   footer span {

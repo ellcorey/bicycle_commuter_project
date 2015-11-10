@@ -49,7 +49,7 @@ footer {
 	.email-input {
 		
 		margin: 0 auto 1em auto;
-		width: 90%;
+		text-align: center;
 
 		input[type="text"] {
 			background: none;
@@ -57,27 +57,26 @@ footer {
 			font-family: 'museo-sans-rounded', sans-serif;
 			font-size: 1.5em;
 			font-weight: 700;
-			margin-left: .5em;
 			padding: 2px;
 			border: none;
 			border-bottom: solid .2em white;
 			transition: border 0.3s;
-			width: 60%;
+			width:100%;
 
 			&::-webkit-input-placeholder {
-			   color: #ddd;
+			   color: tint($link-color, 50%);
 			}
 
 			&:-moz-placeholder { /* Firefox 18- */
-			   color: #ddd;  
+			   color: $ph-color;  
 			}
 
 			&::-moz-placeholder {  /* Firefox 19+ */
-			   color: #ddd;  
+			   color: $ph-color;  
 			}
 
 			&:-ms-input-placeholder {  
-			   color: #ddd;
+			   color: $ph-color;
 			}
 
 		}
@@ -92,6 +91,7 @@ footer {
 			font-size: 1.5em;
 			border-box: box-sizing;
 			text-align: center;
+			transition: color .3s;
 
 			&:hover {
 				color: $hover-color;
