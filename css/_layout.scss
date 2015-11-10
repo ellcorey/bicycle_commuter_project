@@ -16,24 +16,72 @@ header {
 }
 
 section {
-	border-bottom: 1px solid #ccc;
-	padding: 0 5% 5em 5%;
-	margin-bottom: 5em;
+	// border-bottom: 1px solid #ccc;
+	padding: 0 5% 3em 5%;
+	margin-bottom: 3.5em;
+
+	&:nth-of-type(4), &:last-of-type {
+		padding-bottom: 0;
+		margin-bottom: 2em;
+	}
+
+	.information {
+		margin-bottom: 2em;
+	}
 }
+
+#header-overlap {
+		margin: -10em auto 2em auto;
+	}
 
 .mockup {
 	display: block;
 	max-width: 10em;
-	margin: -10em auto 2em auto;
+	margin: 2em auto;
+}
+
+.icons, .divider {
+	max-width: 90%;
 }
 
 .carousel {
 	width: 100%;
 	height: 20em;
+	margin-bottom: none;
 	overflow: hidden;
 
-	img {
+	.rotImg {
 		width: 100%;
+	}
+
+	#carousel1 {
+		background: url('../images/cycling01lg.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+
+	#carousel2 {
+		background: url('../images/cycling02lg.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+
+	#carousel3 {
+		background: url('../images/cycling03lg.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+
+	#carousel4 {
+		background: url('../images/cycling04lg.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+
+	#carousel5 {
+		background: url('../images/cycling05lg.jpg');
+		background-size: cover;
+		background-position: center;
 	}
 }
 
